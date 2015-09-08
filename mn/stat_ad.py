@@ -10,9 +10,9 @@ import gzip
 import datetime
 import pymysql.cursors
 
-connection = pymysql.connect(host='42.62.42.202',
-                         user='enwang',
-                         passwd='enwang2014PaSsW0rd',
+connection = pymysql.connect(host='127.0.0.1',
+                         user='root',
+                         passwd='123456',
                          port=3306,
                          db='union-portal',
                          charset='utf8mb4',
